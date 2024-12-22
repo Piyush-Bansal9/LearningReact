@@ -3,9 +3,6 @@ import { useState } from "react"
 
 function App(){ 
   const [Color, setColor] = useState("olive")
-  function changeColor(color){
-    setColor(color);
-  }
   return (
       <div style={{backgroundColor: Color}} className="w-full h-screen">
         <div className="fixed flex flex-wrap  justify-center bottom-12 inset-x-0 px-2">
