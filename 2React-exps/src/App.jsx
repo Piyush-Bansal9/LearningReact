@@ -12,11 +12,10 @@ function App() {
 }
 function Header({name}){
   return <div>
-    My name is {name}
+    My name is {name} 
   </div>
 }
 export default App*/
-
 // in the above code, only the first header needs to be re-rendered when the state changes, 
 // but the entire App component gets re-rendered because the state variable lies in the App component.
 

@@ -1,5 +1,3 @@
-
-
 /*function App() {
   return <>
     <CreateWrapper innerComponent={<TextComponent1/>}/>
